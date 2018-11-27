@@ -824,7 +824,7 @@ namespace Npgsql.SqlGenerators
         public static readonly Operator Concat = new Operator("||", 10, 8);
         public static readonly Operator In = new Operator("IN", 9, 6);
         public static readonly Operator NotIn = new Operator("NOT IN", 3, 9, 6);
-        public static readonly Operator Like = new Operator("LIKE", 6, 6);
+        public static readonly Operator Like = new Operator("ILIKE", 6, 6);
         public static readonly Operator NotLike = new Operator("NOT LIKE", 3, 6, 6);
         public static readonly Operator LessThan = new Operator("<", 5, 5);
         public static readonly Operator GreaterThan = new Operator(">", 5, 5);
